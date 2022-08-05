@@ -4,9 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>TicTacToe</title>
     </head>
     <body>
+        <div class="buttons">
+            <button class="selection" data-selection="rock"><img src="https://emoji-uc.akamaized.net/orig/f2/0e29d778af528ff18585b3c4088835.png" alt=""></button>
+            <button class="selection" data-selection="paper"><img src="https://emoji-uc.akamaized.net/orig/3d/c0bfc28ef2db2eebf66879a2dc37ea.png" alt=""></button>
+            <button class="selection" data-selection="scissors"><img src="https://emoji-uc.akamaized.net/orig/c4/aa8b2a5d6d7304241d56de9f82e3d9.png" alt=""></button>
+        </div>
+        <div id="display-score">
+            <h1 id="display-score-tie">Tie: 0</h1>
+            <h1 id="display-score-player">Player: 0</h1>
+            <h1 id="display-score-computer">Computer: 0</h1>
+        </div>
+        <button id="reset">Reset</button>
+        <h1 id="display-round"></h1>
+        <h1 id="display-end-game"></h1>
         <script src="main.js"></script>
     </body>
 </html>

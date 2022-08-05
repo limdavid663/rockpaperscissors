@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#reset{
+    display: none;
+}
+
+img{
+    
+}
+
+button{
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#display-score{
+    display: flex;
+    margin: 100px 0;
+    gap: 100px;
+}
